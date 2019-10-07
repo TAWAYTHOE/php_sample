@@ -1,0 +1,138 @@
+html{
+	background-color: ghostwhite;
+	font-size:medium;
+}
+
+	body {
+		font-size: 12px;
+		line-height: 1.3;
+		font-family: Arial, Helvetica, Sans-Serif;
+		color: #ccc;
+		/*	background: url('images/body-bg.gif'); */
+		height: 700px;
+		}	
+
+	table {
+		border-collapse: 1px;
+		width: 80%;
+	}
+	td,th{
+		text-align:center;
+		color:gray;
+	}
+	
+	#header ul {
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	#nav_bar ul li{
+		float: left;
+		display: inline;
+		padding-left: 25px;
+	}
+	
+	#nav_bar{
+		width: auto;
+		height: 24px;
+		background-color:pink;
+		margin-top:110px;
+	}
+	
+	#login, #signup, #cinema, #chome, #schedule, #movie, #report,
+	#show_now, #cinvoice, #seat_form, #booking,#staff {
+			background-color: rgb(82,214,165);
+			margin-bottom:130px;
+			/*
+			margin-top:130px;
+			height:420px;*/
+			float:center;
+			
+		}
+		
+		#cinema_form{
+			text-algin: center;
+		}
+		
+		
+		h1{
+			color:white;
+			font-family: "Comic Sans MS", "Arial";
+			font-weight: normal;
+			font-size:50px;
+			padding-top:10px;
+		/*	margin-right:270px; */
+		}
+		h2{
+			color:blue;
+			font-family: "Comic Sans MS", "Arial";
+			font-weight: normal;
+			font-size:40px;
+			
+		}
+		input[type="text"], input[type="password"], input[type="number_format"], input[type="email"] {
+			width:250px;
+			height:40px;
+			border:1px solid white;
+			color:white;
+			font-size:18px;
+			background-color:rgb(82,214,165);
+			margin-bottom:10px;
+			border-radious:3px;
+			text-align:center;
+		}
+		select{
+			-webkit-appearance: button;
+			-webkit-border-radius: 2px;
+			-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+			-webkit-padding-end: 20px;
+			-webkit-padding-start: 2px;
+			-webkit-user-select: none;
+			background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+			background-position: 97% center;
+			background-repeat: no-repeat;
+			border: 1px solid #AAA;
+			color: #555;
+			font-size: inherit;
+			margin: 20px;
+			overflow: hidden;
+			padding: 5px 10px;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			width: 300px;
+				}
+		textarea{
+			border:1px solid white;
+			color:white;
+			font-size:18px;
+			background-color:rgb(82,214,165);
+			margin-bottom:10px;
+			border-radious:3px;
+			text-align:center;
+		}
+		input[type="submit"]{
+			width:250px;
+			height:40px;
+			text-algin:center;
+			border:1px solid white;
+			color:white;
+			font-size:18px;
+			background-color:white;
+			margin-bottom:10px;
+			border-radious:3px;
+			cursor:pointer;
+			color:rgb(82,214,165);
+		}
+		input[type="submit"]:hover{
+			background-color:rgba(255,255,255,0.93);
+		}
+		input[type="text"]:focus, input[type="password"]:focus{
+			width:317px;
+			background-color:white;
+			color:rgb(82,214,165);
+		}		
+		input[type="text"]:active, input[type="password"]:active{
+			background-color:white;
+			color:rgb(82,214,165);
+		}
+		
